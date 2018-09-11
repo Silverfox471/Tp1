@@ -27,8 +27,14 @@ public class TestCalculator {
         int arg1 = Integer.MIN_VALUE;
         int arg2 = -1;
 
+
         // Act = Action
         int returnedResult = Calculator.add(arg1,arg2);
     }
 
+    @Test
+    public void failedTest ()
+    {
+        Assert.fail();
+    }
 }
